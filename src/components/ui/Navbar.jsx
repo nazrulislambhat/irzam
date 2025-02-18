@@ -37,7 +37,7 @@ export default function ResponsiveMenu() {
 
   return (
     <div className={`menu-container   ${isOpen ? 'menu-open' : ''}`}>
-      <nav className="boxed py-2 top-0 left-0 w-full z-20">
+      <nav className="boxed py-2 px-4 md:px-0 top-0 left-0 w-full z-20">
         <div className="boxed mx-auto">
           <div className="flex items-center justify-between">
             <div className="flex-shrink-0">
