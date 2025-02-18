@@ -24,7 +24,6 @@ body {
 .boxed {
   max-width: 1440px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 body:has(.menu-container.menu-open) {
   overflow: hidden;
