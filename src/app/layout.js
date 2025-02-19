@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#2C3E50" />
       </head>
-      <body className={`${roboto.className} boxed antialiased bg-background`}>
+      <body className={`${roboto.className} boxed antialiased`}>
         <Navbar />
         <main>{children}</main>
       </body>

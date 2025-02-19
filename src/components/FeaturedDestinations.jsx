@@ -7,7 +7,7 @@ const destinations = [
 
 export default function FeaturedDestinations() {
   return (
-    <section className="py-10 px-6">
+    <section className="py-10 px-6 bg-orange">
       <h2 className="text-3xl font-lora text-center mb-6">
         Featured Destinations
       </h2>

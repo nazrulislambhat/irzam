@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --primary-color: #3f0bbc; /* Dark Blue */
-  --secondary-color: #c1ff00; /* Red */
-  --accent-color: #c8e9a0; /* Teal */
-  --background-color: #ecf0f1; /* Light Grey */
-  --text-color: #011936; /* Dark Grey */
-  --button-color: #473198; /* Blue */
-
-  --font-size-h1: 36px; /* Main titles */
-  --font-size-h2: 28px; /* Subheadings */
-  --font-size-h3: 22px; /* Smaller headings */
-  --font-size-body: 16px; /* Body text */
-  --font-size-button: 14px; /* Button text */
-}
 body {
   padding: 0px;
   margin: 0px;

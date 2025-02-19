@@ -2,7 +2,7 @@
 export default function Hero() {
   return (
     <section
-      className="relative bg-cover bg-center h-[500px] flex items-center justify-center text-white text-center px-6"
+      className="relative bg-red bg-center h-[500px] flex items-center justify-center text-white text-center px-6"
       style={{ backgroundImage: "url('/hero-bg.jpg')" }}
     >
       <div className="bg-black/50 p-10 rounded-lg">

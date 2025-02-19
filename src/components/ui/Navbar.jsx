@@ -36,7 +36,7 @@ export default function ResponsiveMenu() {
   }, []);
 
   return (
-    <div className={`menu-container   ${isOpen ? 'menu-open' : ''}`}>
+    <div className={`menu-container ${isOpen ? 'menu-open' : ''}`}>
       <nav className="boxed py-2 px-4 md:px-0 top-0 left-0 w-full z-20">
         <div className="boxed mx-auto">
           <div className="flex items-center justify-between">
@@ -59,7 +59,7 @@ export default function ResponsiveMenu() {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className={`${poppins.className} text-primary border-b-2 border-transparent hover:border-b-2 hover:border-primary text-sm uppercase font-medium hover:scale-95  `}
+                      className={`${poppins.className} text-dark border-b-2 border-transparent hover:border-b-2 text-sm uppercase font-medium hover:scale-95 hover:text-red hover:border-red `}
                     >
                       {item.name}
                     </Link>
@@ -77,7 +77,7 @@ export default function ResponsiveMenu() {
                 {isOpen ? (
                   <X className="block h-8 text-secondary w-8" />
                 ) : (
-                  <Menu className="block h-8 text-primary w-8" />
+                  <Menu className="block h-8 text-dark w-8" />
                 )}
               </button>
             )}
@@ -90,10 +90,10 @@ export default function ResponsiveMenu() {
               initial={{ x: '100%' }}
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
-              transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+              transition={{ type: 'ease', stiffness: 500, damping: 30 }}
               className="md:hidden fixed top-0 right-0 bottom-0 w-screen bg-primary z-20"
             >
-              <div className="space-y-4 mt-[40%] ml-8">
+              <div className="space-y-4 pt-[40%] ml-8">
                 {menuItems.map((item, index) => (
                   <motion.div
                     key={item.name}
@@ -103,7 +103,7 @@ export default function ResponsiveMenu() {
                   >
                     <Link
                       href={item.href}
-                      className="block text-secondary border-b-2 border-transparent hover:scale-90 text-xl uppercase hover:border-secondary hover:border-b-2 w-fit"
+                      className="block text-secondary border-b-2 border-transparent hover:scale-90 text-xl uppercase hover:border-white hover:border-b-2 hover:text-white w-fit"
                       onClick={() => setIsOpen(false)}
                     >
                       {item.name}

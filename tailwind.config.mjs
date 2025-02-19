@@ -9,19 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: 'var(--primary-color)',
-        secondary: 'var(--secondary-color)',
-        accent: 'var(--accent-color)',
-        background: 'var(--background-color)',
-        text: 'var(--text-color)',
-        button: 'var(--button-color)',
-      },
-      fontSize: {
-        h1: '36px', // For main titles or important headings
-        h2: '28px', // For subheadings and section titles
-        h3: '22px', // For smaller headings or section subtitles
-        body: '16px', // Ideal for paragraphs and general content
-        button: '14px', // Easy-to-read size for buttons or call-to-actions
+        primary: '#072AC8 ',
+        secondary: '#CAF0F8',
+        orange: '#FF6700',
+        dark: '#03045E',
+        red: '#FC5130',
+        white: '#FBFFFE',
       },
     },
   },

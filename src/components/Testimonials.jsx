@@ -6,7 +6,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-blue-50 py-10 px-6">
+    <section className="bg-dark py-10 px-6">
       <h2 className="text-3xl font-lora text-center mb-6">
         What Our Travelers Say
       </h2>
