@@ -11,13 +11,16 @@ const MENU_ITEMS = [
 ];
 function Navbar() {
   return (
-    <div className="nav flex items-center justify-between p-4 shadow-md">
-      <Image src={Logo} alt="Travel Logo" width={120} height={50} />
+    <div className="nav flex items-center  justify-between py-2 px-8">
+      <Image src={Logo} alt="Travel Logo" width={60} height={30} />
       <nav>
         <ul className="flex space-x-6">
           {MENU_ITEMS.map((item) => (
             <li key={item.path}>
-              <Link href={item.path} className="text-dark hover:text-primary">
+              <Link
+                href={item.path}
+                className="text-primary text-xs font-semibold hover:border-b-2 border-transparent hover:border-primary"
+              >
                 {item.label}
               </Link>
             </li>
