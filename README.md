@@ -73,52 +73,63 @@ This project is licensed under the MIT License.
 
 🚀 **Irzam Tour & Travel – Your Gateway to the World!**
 
-# 🌍 Website Design System (in `em`)
+# Typography System  
 
-## 1️⃣ Typography System
-
-| Element     | Mobile (`em`) | Tablet (`em`) | Desktop (`em`) |
-| ----------- | ------------- | ------------- | -------------- |
-| H1          | 1.8em         | 2.2em         | 2.5em          |
-| H2          | 1.6em         | 1.9em         | 2.2em          |
-| H3          | 1.4em         | 1.7em         | 1.9em          |
-| H4          | 1.2em         | 1.5em         | 1.7em          |
-| Body Text   | 1em           | 1.1em         | 1.2em          |
-| Small Text  | 0.875em       | 0.95em        | 1em            |
-| Button Text | 1em           | 1.1em         | 1.2em          |
+| Element       | Mobile (em) | Tablet (em) | Desktop (em) |
+|--------------|------------|-------------|--------------|
+| **H1**       | 1.8em      | 2.2em       | 2.5em        |
+| **H2**       | 1.6em      | 1.9em       | 2.2em        |
+| **H3**       | 1.4em      | 1.7em       | 1.9em        |
+| **H4**       | 1.2em      | 1.5em       | 1.7em        |
+| **Body Text** | 1em        | 1.1em       | 1.2em        |
+| **Small Text** | 0.875em  | 0.95em      | 1em          |
+| **Button Text** | 1em     | 1.1em       | 1.2em        |
 
 ---
 
-## 2️⃣ Section & Component Spacing
+## Spacing System (Paddings & Margins)
 
-| Property                       | Mobile (`em`) | Tablet (`em`) | Desktop (`em`) |
-| ------------------------------ | ------------- | ------------- | -------------- |
-| **Section Top-Bottom Padding** | 1.5em         | 2em           | 2.5em          |
-| **Section Left-Right Padding** | 1em           | 2em           | 3em            |
-| **Section Margin**             | 1.5em         | 2em           | 2.5em          |
-| **Container Padding (T/B)**    | 1em           | 1.5em         | 2em            |
-| **Container Padding (L/R)**    | 1em           | 2em           | 3em            |
-| **Card Padding (All Sides)**   | 1em           | 1.2em         | 1.5em          |
-| **Card Margin (T/B)**          | 1em           | 1.2em         | 1.5em          |
-| **Card Margin (L/R)**          | 0.8em         | 1em           | 1.5em          |
-| **Button Padding (T/B)**       | 0.8em         | 1em           | 1.2em          |
-| **Button Padding (L/R)**       | 1.5em         | 2em           | 2.5em          |
-| **Form Field Padding (T/B)**   | 0.8em         | 1em           | 1.2em          |
-| **Form Field Padding (L/R)**   | 1em           | 1.5em         | 2em            |
+| Component          | Mobile (em) | Tablet (em) | Desktop (em) |
+|--------------------|------------|-------------|--------------|
+| **Section Padding** | 1.5em     | 2em         | 2.5em        |
+| **Section Margin**  | 1.5em     | 2em         | 2.5em        |
+| **Container Padding** | 1em     | 1.5em       | 2em          |
+| **Card Padding**   | 1em        | 1.2em       | 1.5em        |
+| **Card Margin**    | 1em        | 1.2em       | 1.5em        |
+| **Button Padding** | 0.8em 1.5em | 1em 2em | 1.2em 2.5em |
+| **Form Field Padding** | 0.8em   | 1em         | 1.2em        |
 
 ---
 
-## 3️⃣ Component Gaps (Spacing between Components)
+## Component Gaps (Spacing between Components)
 
-| Component Relationship        | Mobile (`em`) | Tablet (`em`) | Desktop (`em`) |
-| ----------------------------- | ------------- | ------------- | -------------- |
-| **Between Sections**          | 2em           | 2.5em         | 3em            |
-| **Between Headings & Text**   | 1em           | 1.2em         | 1.5em          |
-| **Between Text Blocks**       | 0.8em         | 1em           | 1.2em          |
-| **Between Cards**             | 1.2em         | 1.5em         | 2em            |
-| **Navbar Item Spacing (L/R)** | 1em           | 1.5em         | 2em            |
-| **Sidebar Padding (L/R)**     | 1em           | 1.5em         | 2em            |
+| Component Relationship     | Mobile (em) | Tablet (em) | Desktop (em) |
+|---------------------------|------------|-------------|--------------|
+| **Between Sections**      | 2em        | 2.5em       | 3em          |
+| **Between Headings & Text** | 1em      | 1.2em       | 1.5em        |
+| **Between Text Blocks**    | 0.8em      | 1em         | 1.2em        |
+| **Between Cards**         | 1.2em      | 1.5em       | 2em          |
+| **Navbar Item Spacing**    | 1em        | 1.5em       | 2em          |
 
 ---
 
-🎨 **This design system ensures consistency, scalability, and responsiveness across all screen sizes.** 🚀
+## Fonts
+
+| Font         | Usage                            |
+|-------------|----------------------------------|
+| **Montserrat** | Headings (H1, H2, H3, H4)    |
+| **Poppins**    | Body Text, Small Text, Buttons |
+
+---
+
+## Colors  
+
+| Color Name   | Hex Code  | Usage                                         |
+|-------------|----------|-----------------------------------------------|
+| **White**   | `#ffffff`  | Backgrounds, Text on Dark Backgrounds        |
+| **Primary** | `#011ef5`  | Primary Buttons, Links, Highlights           |
+| **Secondary** | `#cbff8c` | Secondary Highlights, Accent Elements        |
+| **Tomato**  | `#fb4d3d`  | Alerts, Error Messages, Call-to-Actions      |
+| **Yellow**  | `#fffd82`  | Highlights, Warnings, Notices                |
+| **Dark**    | `#011936`  | Primary Text, Backgrounds, Navbar            |
+
